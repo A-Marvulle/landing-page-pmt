@@ -34,6 +34,11 @@ body::-webkit-scrollbar-thumb {background-color: var(--orange);}
 html {box-sizing: border-box;font-size: 16px;scroll-behavior: smooth;font-family: var(--font-primary);}
 body *{font-family: "Carnas-Regular";}
 h1,h2,h3{font-family: "Carnas W03 Bold";}
+a{transition: .3s;}
+a:hover{filter: brightness(.9);}
+.bg-green{background: var(--green);}
+.bg-blue{background: var(--blue);}
+.bg-green{background: var(--green);}
 
 /* HEADER */
 
@@ -43,4 +48,7 @@ h1,h2,h3{font-family: "Carnas W03 Bold";}
 
 /* FOOTER */
 footer {border-top: 1px solid var(--orange)}
+footer .contato {position: relative; z-index: 2; overflow: hidden;}
+footer .contato .container { border-radius: 18px;}
+footer .contato iframe{position: absolute; z-index: -1; width: 100%; height: 100%; top: 0; left: 0;}
 footer .copy {background-color: var(--orange);}
