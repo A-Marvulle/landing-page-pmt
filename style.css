@@ -1,0 +1,46 @@
+@import url(https://db.onlinewebfonts.com/c/122c141f00bd0a1471676beb104d66a1?family=Carnas+W03+Bold);
+@import url(https://db.onlinewebfonts.com/c/f4bdacabc53c3a7739545724c8a5c17c?family=Carnas-Regular);
+:root {
+  --green:rgb(61, 174, 43);
+  --orange:rgb(255, 116, 29);
+  --blue:rgb(27, 62, 146);
+}
+
+*,*::before,*::after {box-sizing: inherit;}
+
+@font-face {
+  font-family: "Carnas W03 Bold";
+  src: url("https://db.onlinewebfonts.com/t/122c141f00bd0a1471676beb104d66a1.eot");
+  src: url("https://db.onlinewebfonts.com/t/122c141f00bd0a1471676beb104d66a1.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/122c141f00bd0a1471676beb104d66a1.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/122c141f00bd0a1471676beb104d66a1.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/122c141f00bd0a1471676beb104d66a1.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/122c141f00bd0a1471676beb104d66a1.svg#Carnas W03 Bold")format("svg");
+  font-family: "Carnas-Regular";
+  src: url("https://db.onlinewebfonts.com/t/f4bdacabc53c3a7739545724c8a5c17c.eot");
+  src: url("https://db.onlinewebfonts.com/t/f4bdacabc53c3a7739545724c8a5c17c.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/f4bdacabc53c3a7739545724c8a5c17c.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/f4bdacabc53c3a7739545724c8a5c17c.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/f4bdacabc53c3a7739545724c8a5c17c.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/f4bdacabc53c3a7739545724c8a5c17c.svg#Carnas-Regular")format("svg");
+}
+
+/* SCROOL */
+body::-webkit-scrollbar {width: 10px;}
+body::-webkit-scrollbar-track {background: #f0f0f0;}
+body::-webkit-scrollbar-thumb {background-color: var(--orange);}
+
+/* GERAL */
+html {box-sizing: border-box;font-size: 16px;scroll-behavior: smooth;font-family: var(--font-primary);}
+body *{font-family: "Carnas-Regular";}
+h1,h2,h3{font-family: "Carnas W03 Bold";}
+
+/* HEADER */
+
+/* MAIN */
+/* BANNER */
+.banner{height: 100vw;}
+
+/* FOOTER */
+footer {border-top: 1px solid var(--orange)}
+footer .copy {background-color: var(--orange);}
